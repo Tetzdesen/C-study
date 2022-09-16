@@ -1,8 +1,3 @@
-# C-study
-
-
-## Hello World
-```
 #include <stdio.h>
 
 
@@ -12,6 +7,3 @@ int main(void){
     return 0;
 
 }
-```
-
--[Code]()
