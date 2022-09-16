@@ -14,4 +14,4 @@ int main(void){
 }
 ```
 
--[Code]()
+-[Code](./hello/main.c)
