@@ -7,6 +7,6 @@ int main(void){
 
     tempConvertido = 5 * ((temperatura - 32) / 9);
 
-    printf("Sua temperatura em Graus Celsius é: %f", temperatura); 
+    printf("Sua temperatura em Graus Celsius é: %f \n", tempConvertido); 
     return 0;
 }

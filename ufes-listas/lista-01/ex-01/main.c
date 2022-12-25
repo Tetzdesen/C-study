@@ -8,6 +8,6 @@ int main(void) {
   char nome[60];
   printf("Digite o nome de quem escreveu o programa: ");
   scanf("%s", &nome);
-  printf("O nome de quem escreveu o programa é: %s", nome);
+  printf("O nome de quem escreveu o programa é: %s \n", nome);
   return 0;
 }

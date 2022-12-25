@@ -5,10 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Anexar",
+            "name": "(gdb) Iniciar",
             "type": "cppdbg",
-            "request": "attach",
+            "request": "launch",
             "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
                 {

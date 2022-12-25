@@ -12,6 +12,6 @@ int main(void) {
   printf("Digite um número: ");
   scanf("%d", &num2);
   produto = num1 * num2;
-  printf("O produto entre fois números é: %d", produto);
+  printf("O produto entre os dois números é: %d \n", produto);
   return 0;
 }

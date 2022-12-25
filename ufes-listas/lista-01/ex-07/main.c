@@ -10,8 +10,8 @@ int main(void){
     scanf("%d", &numero);
 
     if((numero % 7) == 0){
-        printf("Seu número é múltiplo de 7.");
+        printf("Seu número é múltiplo de 7. \n");
     } else {
-         printf("Seu número não é múltiplo de 7.");
+         printf("Seu número não é múltiplo de 7. \n");
     }
 }
