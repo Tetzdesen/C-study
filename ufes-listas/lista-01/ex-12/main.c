@@ -13,13 +13,20 @@ int main(void){
         scanf("%d", &numeros[i]);
        
     }
-
+    
     for(int i = 0; i < 3; i++){
-        if(numeros[i] > numeros[i+1]){
+        for (int j = 0; j < 3; j++)
+        {
+            if(numeros[i] > numeros[j]){
+                maior = numeros[i];
+        
+            }
             
         }
-       
+        
+    
     }
+    printf("%d\n", maior);
     
     return 0;
 }
