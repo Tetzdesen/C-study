@@ -44,7 +44,7 @@ int main(void){
         scanf("%d", &relogio2.segundos);
     } while ((relogio2.hora < 0 || relogio2.hora > 23) || (relogio2.minuto < 0 || relogio2.minuto > 59) || (relogio2.segundos < 0 || relogio2.segundos > 59));
     
-    if((relogio1.hora >= relogio2.hora) && (relogio1.minuto >= relogio2.minuto) && (relogio1.segundos >= relogio2.segundos)){
+    if((relogio1.hora >= relogio2.hora) || (relogio1.minuto >= relogio2.minuto) || (relogio1.segundos >= relogio2.segundos)){
         tempo += (((relogio1.hora - relogio2.hora) * 3600) + ((relogio1.minuto - relogio2.minuto) * 60) + (relogio1.segundos - relogio2.segundos));
 
     } else{
