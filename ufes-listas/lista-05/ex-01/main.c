@@ -12,5 +12,6 @@ int main(void){
         printf("%c", vetor[i]);
     }
     printf("\n");
+    fclose(arquivo);
     return 0;
 }

@@ -11,4 +11,6 @@ int main(void){
     fscanf(arquivo, "%d", &numero);
 
     printf("O número contido no arquivo é: %d\n", numero);
+
+    fclose(arquivo);
 }

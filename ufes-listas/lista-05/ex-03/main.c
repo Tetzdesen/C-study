@@ -11,5 +11,6 @@ int main(void){
     fscanf(arquivo, "%f", &numero);
 
     printf("O número real contido no arquivo é: %f\n", numero);
+    fclose(arquivo);
     return 0;
 }
