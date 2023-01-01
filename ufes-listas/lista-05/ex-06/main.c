@@ -15,12 +15,11 @@ int main(void){
     // 3 - 2 
 
     // 
-    for(int i = 1, j = 0; i < 10; i += 2, j += 2){
+    for(int i = 1, j = 0; i < 20; i += 2, j += 2){
        diferenca = vetor[i] - vetor[j]; 
        fprintf(arquivo2, "%d ", diferenca);
  
     }
-
 
     printf("\n");
     fclose(arquivo);
